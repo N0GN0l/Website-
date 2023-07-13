@@ -1,0 +1,24 @@
+.bar_piece li {
+    float: left;
+}
+.bar_piece a{
+    display: block;
+    color: #006eff;
+    width: 445px;
+    height: 100px;
+}
+
+
+.bar_piece a:link{
+    font-weight: bold;
+    font-size: 70px;
+    color: teal;
+    background-color: clear;
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.bar_piece a:hover, .navbar a:active {
+    position:relative; top:10px;
+}

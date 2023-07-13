@@ -1,0 +1,51 @@
+
+/*-----------------Default text settings--------------------*/
+.therapy{
+    width: 150px;
+    height: 100px;
+    font-weight: bold;
+    font-size: 30px;
+    color: #A9ACA9;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+/*-----------------Default text settings--------------------*/
+
+
+marquee{
+    height: 80vh;
+}
+marquee:hover{
+    --scrollamount: 5;
+}
+
+
+
+
+/*----------------------------rounded edges----------------------------------*/
+.therapy{
+  border-radius: 25px;
+  background: radial-gradient(#ff0000, #ff00dd);
+  padding: 20px; 
+  width: 150px;
+  height: 100px;  
+}
+
+.therapy{
+  border-radius: 1px;
+  border: 2px solid #46494c;
+  padding: 20px; 
+  width: 150px;
+  height: 100px;  
+}
+
+.therapy{
+  border-radius: 25px;
+  background-position: left top;
+  background-repeat: repeat;
+  padding: 20px; 
+  width: 150px;
+  height: 100x;  
+}
+/*----------------------------rounded edges----------------------------------*/
